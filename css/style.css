@@ -1,0 +1,186 @@
+/*------------------------------
+Common Style
+------------------------------*/
+body{
+	padding: 50px;
+	color: #E6E9E0;
+	background-image: url(../img/wall_camo.jpg);
+    text-align: center;
+    width: auto;
+}
+header {
+	margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+#main{
+    height: auto;
+    background-color: #394f42;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    margin: 20px 0px 0px 0px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 15px auto;
+}
+.con{
+    text-align: center;
+    margin: 20px;
+}
+#star_a{
+    text-align: center;
+}
+a {
+    color: #007edf;
+    text-decoration: none;
+}
+.in{
+    text-align: center;
+    margin: 15px;
+}
+/*-----------------------------------
+入力エリア
+-----------------------------------*/
+label {
+    display: block;
+    padding-top: 15px;
+    font-size: 20px;
+}
+input[type="text"],
+textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	font-size: 86%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+}
+input[type="text"] {
+	width: 200px;
+}
+textarea {
+	width: 400px;
+	height: 70px;
+}
+input[type="submit"] {
+	appearance: none;
+    -webkit-appearance: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 86%;
+    line-height: 1.0em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #37a1e5;
+}
+input[type=submit]:hover,
+button:hover {
+    background-color: #2392d8;
+}
+hr {
+	margin: 20px 0;
+	padding: 0;
+}
+.password {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+
+
+
+
+.success {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #48b400;
+    border-radius: 10px;
+    border: 1px solid #4dc100;
+}
+.error {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #ef072d;
+    list-style-type: none;
+    border-radius: 10px;
+    border: 1px solid #ff5f79;
+}
+.success,
+.error li {
+    font-size: 86%;
+    line-height: 1.6em;
+}
+/*-----------------------------------
+掲示板エリア
+-----------------------------------*/
+#star {
+    width: 600px;
+    margin: 20px auto;
+	padding: 20px;
+	border-radius: 10px;
+	background: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lb{
+    color: #222;
+}
+
+.rb {
+	margin-bottom: 10px;
+}
+.rb h3 {
+	display: inline-block;
+	margin-right: 10px;
+	color: #222;
+	line-height: 1.6em;
+	font-size: 86%;
+}
+.rb time {
+	color: #999;
+	line-height: 1.6em;
+	font-size: 72%;
+}
+
+.rb p{
+    color: #222;
+}
+
+/*-----------------------------------
+管理画面エリア
+-----------------------------------*/
+
+table{
+    border: 2px solid #222;
+    background-color: #fff;
+    color: #222;
+    margin: 10px;
+    line-height: 1.6em;
+    margin: auto;
+}
+th{
+    border: 1px solid #222;
+}
+td{
+    border: 1px solid #222;
+}
+
+.cj2{
+    color: #222;
+    font-size: 21px;
+    margin: 20px;
+    line-height: 1.6em;
+    background-color: #fff;
+    border-radius: 10px;
+}
